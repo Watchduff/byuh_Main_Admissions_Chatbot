@@ -1,0 +1,898 @@
+{
+  "sourceFile": "ChatBot - Country Criteria Data Base (3)(1).xlsx",
+  "sheetName": "Sheet1",
+  "originalHeaders": [
+    "Region",
+    "Country",
+    "Current Academic Criteria",
+    "English Test Required",
+    "Optional to submit",
+    "Expired Country Citeria",
+    "Not accepted"
+  ],
+  "columns": [
+    "region",
+    "country",
+    "currentAcademicCriteria",
+    "englishTestRequired",
+    "optionalToSubmit",
+    "expiredCountryCriteria",
+    "notAccepted"
+  ],
+  "recordCount": 97,
+  "records": [
+    {
+      "region": null,
+      "country": "ALL STUDENTS",
+      "currentAcademicCriteria": "All students must graduate from high school (or secondary school) according to their own country before starting at BYU–Hawaii. High school seniors may submit a current transcript with an anticipated graduation date, but may need to provide an official transcript after being admitted to BYUH.\nThere is no minimum GPA requirement, but the GPA averages of incoming students can be found here: https://admissions.byuh.edu/new-international-students \nStudents who have not finished high school must either complete it, an equivalent, or apply as a transfer student. Transfer applicants need at least 24 university credits, preferably through BYU Pathway Worldwide. Pathway Connect alone does not meet this requirement, as its courses are not university-level.",
+      "englishTestRequired": "Students who indicate a primary language other than English on their application must submit a valid English proficiency test. Additionally, applicants from the following countries are required to submit an English test even if they list English as their primary language.",
+      "optionalToSubmit": "In general, any college entrance exam that acts like an ACT/SAT is optional to submit. Some countries, due to limited access to their high school academic documents or history are required to submit a college entrance exam.",
+      "expiredCountryCriteria": "These country criteria are no longer being used. Do not give reponses baseed on this information as it is outdated, but this can be useful for the ChatBot to know as far as understanding the history of the country criteria we required in the past.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "American Overseas Schools",
+      "currentAcademicCriteria": "Submit high school transcript.",
+      "englishTestRequired": null,
+      "optionalToSubmit": "ACT/ SAT\nStudents have the option whether or not to report their ACT or SAT scores. It is test optional.\nIf you have taken the SAT, you may refer to our ACT/SAT Equivalency Table to find your SAT score's equivalent.\nScores must be sent through the examiners. We will not accept ACT/SAT scores via email or scores on transcripts.\nSAT/ACT scores must be sent electronically through the SAT and ACT websites. Scores usually take two to three days to process after our office receives them. https://admissions.byuh.edu/act-sat-equivalency.",
+      "expiredCountryCriteria": "Submit high school transcripts:\n- Have a minimum cumulative GPA of 2.8 or more.\nSubmit an ACT/SAT score:\n- Have a minimum ACT or equivalent score of 21.\n--OR--\n- Meet the English Test, the ELAT, (English Language Admission Test)\n--OR--\n- Complete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher\nFor more information on how to submit",
+      "notAccepted": "Certificate of Completion\nCertificate of Attendance\nSpecial Education Completion Certificates"
+    },
+    {
+      "region": "Pacific",
+      "country": "American Samoa",
+      "currentAcademicCriteria": "Submit high school transcript.",
+      "englishTestRequired": "ACT/ SAT or valid English Test",
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Submit high school transcripts:\n- Have a minimum cumulative GPA of 2.8 or more.\nSubmit an ACT/SAT score:\n- Have a minimum ACT or equivalent score of 21.\n--OR--\n- Meet the English Test, the ELAT, (English Language Admission Test)\n--OR--\n- Complete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher\nFor more information on how to submit",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Australia",
+      "currentAcademicCriteria": "High School transcript showing completion of state's senior secondary certificate (year 12), such as the HSC (NWS), VCE, OR QCE.\n\nor\n\nSubmit ATAR/OP score.",
+      "englishTestRequired": null,
+      "optionalToSubmit": "ATAR/OP score",
+      "expiredCountryCriteria": "Receive a Secondary School Certificate and an ATAR score of 65+.\n--OR--\nReceive an Overall Position (OP) of 15 or less in Queensland.\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Austria",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript and diploma; a grade of B on U.S. grading scale will be competitive.\n\nHigher secondary certificate (H.S.C). HSC",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Bangladesh",
+      "currentAcademicCriteria": "(Intermediate) PASS Certificate or Senior School Certificate or Higher Secondary Course Certificate",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript and diploma; a grade of B on U.S. grading scale will be competitive.\n\nHigher secondary certificate (H.S.C). HSC",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Belgium",
+      "currentAcademicCriteria": "Secondary School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript and diploma; a grade of B on U.S. grading scale will be competitive\n\nMatura (school-leaving examination) Certificate",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Brazil",
+      "currentAcademicCriteria": "High School Transcript  - Graduate from a three- or four-year secondary program. (3-yr. most common) Certificado de Conclusao de Ensino Medio Grau or Diploma de Tecnico de Nivel Medio",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Graduate from a three- or four-year secondary program. (3-yr. most common) Certificado de Conclusao de Ensino Medio Grau or Diploma de Tecnico de Nivel Medio ‘B’ average.\n\nFor the NAFSA grading scale, a 7 of 10 average is required on the Ensino de Medio.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Bulgaria",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive.\n\nDiploma za Zavarsheno; Diploma za Sredno Obrazovanie",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Cambodia",
+      "currentAcademicCriteria": "Complete the BAC II High School Diploma Exam and submit any high school transcripts or academic history.",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Technical and Vocational Certificate.",
+      "expiredCountryCriteria": "Complete the BAC II High School Diploma Exam and receive a score of 75, or higher.\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Cameroon",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "For Anglophones, the GCE ‘A’ Levels and individual university entrance exams are required. 5 Passes at the ‘O’ Level and 3 passes at the ‘A’ Level. For Francophones a minimum of 10 out of 20 on the Baccalaureat is required.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Canada",
+      "currentAcademicCriteria": "Secondary School Diploma",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Diploma\n\nGPA in the 67-72% range\n\nACT or SAT score",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Chad, Central Africa",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "A minimum score of 10 out of 20 on the Baccaulareat.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Chile",
+      "currentAcademicCriteria": "High school transcripts (12 years of education at a Colegio or Liceo required). We require a copy of the Licencia de Education Media.",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "A 3.5 to 4 (75%) GPA on high school transcripts (12 years of education at a Colegio or Liceo required). We require a copy of the Licencia de Education Media.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "China",
+      "currentAcademicCriteria": "High School Transcript (General senior secondary school transcript)",
+      "englishTestRequired": null,
+      "optionalToSubmit": "GAOKAO",
+      "expiredCountryCriteria": "Senior high school transcript.\n\nHigh school graduation (diploma).",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Colombia",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary school transcript and diploma; a grade of B on U.S. grading scale will be competitive.\n\nInstituto Colombiano para el Fomento de la Educación Superior Certificate (ICFES exam result).",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Commonwealth of Independent States (CIS)",
+      "currentAcademicCriteria": "Secondary School Transcript.",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive.\n\nMijnakarg Yndhanur Krtoutian Attest at/Mijin Masnagitakan Krtutyan Diplom/Certificate of General Education/Attest at o Srednem Obrazovanii/Diplom o Srednem Spetsialnom Obrazovanii/Diploma de Bacalaureat/O'rta Ma'lumot To'g'risida Shahodatnoma (School-leaving Certificate).",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Cook Islands",
+      "currentAcademicCriteria": "High School Transcripts\n--AND--\n Submit results of NCEA/NZQA:\n--Or--\nComplete the Te Timatanga Hou Programme",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Year 13 (NCEA Level 3) highly encouraged",
+      "expiredCountryCriteria": "Submit results of NCEA/NZQA:\n- Must include level 3 with a minimum of 42 credits.\n--Or--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 cumulative GPA or higher.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Costa Rica",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive.\n\nBachillerato Certificate (Diploma).",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Cyprus",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive\n\nPancyprian Examinations and Apolytirion (School-leaving Certificate)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Czech Republic",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive\n\nVysvědčení o maturitní zkoušce (School-leaving Certificate)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Democratic Republic of Congo",
+      "currentAcademicCriteria": "Secondary School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Diplôme d'État d'Etudes secondaires du Cycle long.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Denmark",
+      "currentAcademicCriteria": "Secondary School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive\n\nBevis for Studentereksamen (Certificate for Student Examination) or Bevis for Højere forberedelseseksamen/HF (Certificate for Higher Preparatory Examination)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Europe (European countries may submit)",
+      "currentAcademicCriteria": "Secondary high school transcripts\nor\nGCE (AS or A levels)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "International Baccalaureate:\n\nStudents who have completed an IB program should apply at the freshman level.\nStudents may be given advanced standing credit passed at the Higher Level with minimum grades of 5 or better.\nStudents may apply during the senior year.  No credit is granted for subsidiary level examinations.",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Fiji",
+      "currentAcademicCriteria": "High School Transcript (Grades 10–12) \nor \nUSP (University of the South Pacific) Foundation  Program",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Year 13 Certificate highly encouarged",
+      "expiredCountryCriteria": "Complete the Fiji Year 13 (Seventh Form) exam:\nForm 7 exam taken in 2017 or later\n- The minimum score is 200. Total score is based on the top four subject scores plus English.\nForm 7 before 2017\n- The minimum required score is 250. Total score is based on the top four subject scores plus English. Must have at least 50 (Achieved) on each exam.\n--OR--\nComplete the University of South Pacific Foundation Program:\n- Take at least seven courses, including English, and get a grade of “C” or better in each.\n--OR--\nComplete one semester of academic courses at any accredited tertiary institution with a GPA of 3.0 or higher.\n--OR--Complete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 cumulative GPA or higher.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Finland",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive.\n\nYlioppilastutkintotodistus / Studentexamensbetyg (Matriculation Certificate/School-leaving Certificate).",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "France",
+      "currentAcademicCriteria": "Baccalaureate diploma or High School Trancripts (Grades 10,11, and 12)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Diplome du Baccalaureat: 10 or higher out of 20 on compulsory subject exams.",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "French Polynesia",
+      "currentAcademicCriteria": "Baccalaureate diploma or High School Trancripts (Grades 10,11, and 12)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Complete the Diplome du Baccalaureat:\n- Score 10 or higher out of 20 on compulsory subject exams.\n--OR--\nComplete the Diplome d’acces aux Etudes Universitaire (DAEU):\n- Score “la moyenne” (average) or better on all subjects.\n--OR--\nComplete BYU-Pathway’s foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Gambia",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Score of 6 or better in 5 subjects, including English, on the WASSCE or\n\nWest African Examinations Council A Level.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Germany",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive.\n\nPassed the Abitur examination; have Abitur, Fachhochschulreife, or a Meisterbrief (Matriculation Certificate/School-leaving Certificate).",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Ghana",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "SSCE graduate with aggregate of 24 (a ‘D’ average) or better on 3 core and 3 best electives.\n\nStudents who have sat the West African Examinations Council (WAEC) must pass core English, core Mathematics, and core Science plus 3 elective subjects with an aggregate score of 24 or better on the WAEC exam.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Greece",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive.\n\nApolytirio Lykeiou (School-leaving Certificate).",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Guam",
+      "currentAcademicCriteria": "Submit high school transcript.",
+      "englishTestRequired": "ACT/ SAT or valid English Test",
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Submit high school transcripts:\n- Have a minimum cumulative GPA of 3.0 or more.\n\nSubmit an ACT/SAT score:\n- Have a a minimum ACT or equivalent score of 21.\n--OR--\nMeet the English test requirement, the ELAT, (English Language Admission Test)\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Guatemala",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive\n\nBachillerato Certificate (Diploma)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Hong Kong",
+      "currentAcademicCriteria": "Submit high school transcripts and complete the HKDSE (Hong Kong Diploma of Secondary Education)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Completion or proof of completion of Form 6* plus one of the following options:\n\n​ACT or SAT exam (expected to also sit the HKDSE - send proof of HKDSE registration or\n\nCompleted HKDSE results.\n\nYou are expected to sit the HKDSE. When the HKDSE results are issued, submit a score of at least 13 points (in all subjects taken). Results must be sent to BYU–Hawaii.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Hungary",
+      "currentAcademicCriteria": "Secondary Education Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive\n\nérettségi vizsga (secondary school leaving examination); Érettségi Bizonyítvány (Graduation Certificate)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Iceland",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive.\n\nStúdentspróf (Upper secondary school leaving certificate)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "India",
+      "currentAcademicCriteria": "PASS Certificate or Senior School Certificate or Higher Secondary Course Certificate",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Submit results of the senior/higher secondary school pass certificate with its grading scale.\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher",
+      "notAccepted": "Secondary School Leaving Certificate, Secondary School Examination, State Board of Technical Education & Training"
+    },
+    {
+      "region": null,
+      "country": "Indonesia",
+      "currentAcademicCriteria": "Submit Ijazah Sekolah Menengah Atas or Umum (SMA or SMK or MA).",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Minimum of 6.5 (B)on Ijazah Sekolah Menengah Atas or Umum (aka. SMA or SMU).\n\nSubmit high school transcripts.\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Italy",
+      "currentAcademicCriteria": "Secondary School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive\n\nMaturità / Diploma di Esame di Stato conclusivo del corso di (School leaving certificate)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Jamaica",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Ecclesiastical Endorsement\n\nGeneral Certificate of Education ‘A’ Level with four CXC subjects",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Japan",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "High school transcripts with a 3.3 average out of 5 (Japan grading scale) or a 2.3 GPA on a U.S. equivalent grading scale.\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher.",
+      "notAccepted": "High School Transcript (Grades 7-9)"
+    },
+    {
+      "region": null,
+      "country": "Jordan",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "60% on the Tawjihi.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Kenya",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Students must pass the KCSE with a minimum score of C+ in at least ten (10) subjects.",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Kiribati",
+      "currentAcademicCriteria": "Submit High School Transcript \nAND\nComplete Form 7 (So. Pacific 7th Form Certificate)\n- OR- \nComplete the University of South Pacific Foundation Program:",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Form 7 / Year 13 highly encouraged",
+      "expiredCountryCriteria": "Complete Form 7 (So. Pacific 7th Form Certificate)\n- Pass exams in five subjects including English with a 2.5 GPA or higher in each course.\n--OR--\nComplete the University of South Pacific Foundation Program:\n- Take at least seven courses, including English, and get a grade of “C” or better in each.\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 cumulative GPA or higher.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Laos",
+      "currentAcademicCriteria": "Secondary Education Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Upper Secondary School Diploma with a grade of 5 or higher for each subject.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Liberia",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Pass the SHSC with grades of 70% or higher.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Luxembourg",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive.\n\nDiplôme de fin d'études secondaires (Diploma of secondary education).",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Macau",
+      "currentAcademicCriteria": "Secondary school diploma - Form 6 / Year 12 (secondary diploma)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "A “C” average on the Secondary Certificate or British O-Levels Exams.",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Marshall Islands",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": "ACT/ SAT or valid English Test",
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Submit high school transcripts:\n- Have a minimum cumulative GPA of 2.8 or more.\n\nSubmit an ACT/SAT score:\n- Have a a minimum ACT or equivalent score of 21.\n--OR--\nMeet the English Test, the ELAT, (English Language Admission Test)\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Mexico",
+      "currentAcademicCriteria": "Submit high school transcript (Bachillerato and graduation certificate)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Minimum of 7.5 average on the Bachillerato and graduation certificate.\n\n75%+ (7.5 GPA) on high school transcripts if educated in Mormon colonies +ACT/SAT.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Micronesia",
+      "currentAcademicCriteria": "Submit high school transcripts",
+      "englishTestRequired": "ACT/ SAT or valid English Test",
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Submit high school transcripts:\n- Have a minimum cumulative GPA of 2.8 or more.\n\nSubmit an ACT/SAT score:\n- Have a a minimum ACT or equivalent score of 21.\n--OR--\nMeet the English test requirement, the ELAT, (English Language Admission Test)\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Mongolia",
+      "currentAcademicCriteria": "Certificate of Senior Secondary Education or High School Transcript (Grades 10-12)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Gerchilgee School Leaving Certificate\n- Receive a 3.5 average in a minimum of five subjects + one-year of university-level academic education.\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Morocco",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Baccalaureat (with a score of at least 10 out of 20).",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Malaysia",
+      "currentAcademicCriteria": "SPA or SPM (Malaysia Higher School Certificate) or High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Submit ONE of the following:\n\nSijil Tinggi Persekolahan Malaysia (STPM)\n\nSijil Pelajaran Malaysia (SPM) with a GPA of around 5 plus one year of university-level studies or 14 credits of BYUH online class with a grade of B or better in each course. (Returned missionaries will be considered with a GPA on the SPM of around 6)\n\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Myanmar",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Matriculation Exam",
+      "expiredCountryCriteria": "Basic Education Standard X Examination. Complete BYU-Pathway’s foundational PathwayConnect curriculum with a minimum 3.0 GPA or higher and/or complete a BYU-Pathway Worldwide certificate and/or associate degree.",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Nauru",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Year 13 (if offered, is encouraged)",
+      "expiredCountryCriteria": "Can't find this country",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Nepal",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": "School Leaving Certificate Examination",
+      "expiredCountryCriteria": "School Leaving Certificate and Proficiency Certificate or Intermediate Certificate exam.\n\nGraduate in the Third Division with a score of 38% or higher.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Netherlands",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive.\n\nDiploma from HAVO/VWO, atheneum, gymnasium, H.B.S., Lyceum (Diploma of secondary education).",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "New Caledonia",
+      "currentAcademicCriteria": "Baccalaureate diploma or High School Trancripts (Grades 10,11, and 12)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Diplome du Baccalaureat: 10 or higher out of 20 on compulsory subject exams.\n\nGPA of 3.3 for students with 8 or more on the Bacc.\n\nSuccessful completion of BEP for returned missionaries only.",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "New Zealand",
+      "currentAcademicCriteria": "High School Transcripts\n--AND--\n Submit results of NCEA/NZQA:\n--Or--\nComplete the Te Timatanga Hou Programme",
+      "englishTestRequired": null,
+      "optionalToSubmit": "NCEA Level 3 (preferred for university)",
+      "expiredCountryCriteria": "Submit results of NCEA/NZQA:\n- Must include level 3 with a minimum of 42 credits.\n--Or--\nComplete the Te Timatanga Hou Programme:\n- Pass the six core courses with a C or better.\n--Or--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 cumulative GPA or higher.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Nigeria",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "An average score of 5 including English and math on the SSCE.",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Niue",
+      "currentAcademicCriteria": "High School Transcript \n--OR--\nComplete the University of South Pacific “Foundation Program”\n--OR--\nOne year of tertiary study in academic courses with a minimum C average at a recognized school (ie. NZ University or Polytech, etc.)",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Year 13 (NCEA Level 3) highly encouraged",
+      "expiredCountryCriteria": "Complete Form 7\n--OR--\nComplete the University of South Pacific “Foundation Program”\n- Take a minimum of seven courses (one must be English) with a “C” grade or better in each course.\n--OR--\nOne year of tertiary study in academic courses with a minimum C average at a recognized school (ie. NZ University or Polytech, etc.)\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Norway",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Vitnemål Fra Videregående Skole (Diploma of secondary education)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Pakistan",
+      "currentAcademicCriteria": "Higher Secondary School Certificate or Secondary School Certificate",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Intermediate Annual Examination",
+      "expiredCountryCriteria": "Graduate from a 12-year program and earn the Higher Secondary Certificate and achieve an average of at least 50% to be admissible.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Palau",
+      "currentAcademicCriteria": "Submit high school transcript.",
+      "englishTestRequired": "ACT/ SAT or valid English Test",
+      "optionalToSubmit": "ACT/ SAT\nStudents have the option whether or not to report their ACT or SAT scores. It is test optional.\nIf you have taken the SAT, you may refer to our ACT/SAT Equivalency Table to find your SAT score's equivalent.\n\nScores must be sent through the examiners. We will not accept ACT/SAT scores via email or scores on transcripts.\n\nSAT/ACT scores must be sent electronically through the SAT and ACT websites. Scores usually take two to three days to process after our office receives them.",
+      "expiredCountryCriteria": "Submit high school transcripts:\n- Have a minimum cumulative GPA of 3.0 or more.",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Papua New Guinea",
+      "currentAcademicCriteria": "Complete the Upper Secondary School Certificate or send high school transcripts years 10-12.",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Complete the Upper Secondary School Certificate:\n- Transcripts of all grades received will be required - 'B' grade average expected to be competitive for admission.\n--OR--\nComplete the Tonga National Form Seven Certificate (TNFSC):\n- Pass exams in five subjects, including English, and submit your transcripts.\n--OR--\nComplete the University of South Pacific Foundation Program:\n- Take at least seven courses, including English, and get a grade of “C” or better in each.\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher\n\nMeet the English test requirement.\n\nFor more information on how to submit your transcripts, see Transcript Submission.\n\n*The completion of a BYU-Pathway Worldwide program will waive BYU–Hawaii’s high school diploma/secondary education requirements.\nFor more information, please visit BYU–Hawaii BYU-Pathway Partnership Program.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Philippines",
+      "currentAcademicCriteria": "Completion of High School from level 7 to level 12 (we only evaluate Grades 11-12)",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Old High School Curriculum (1st year to 4th year high school transcript)",
+      "expiredCountryCriteria": "K-12: HS graduation + one-year university GPA of 2.75 (83%) or lower (Philippines grading system).\nK-10: HS Graduation + two years university GPA of 2.75 (83%) or lower (Philippines grading system).\n--OR--",
+      "notAccepted": "Students from Philippines cannot apply only with 7-10 level. They must have year 11 and 12 as well."
+    },
+    {
+      "region": null,
+      "country": "Poland",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Świadectwo dojrzałości (Leaving Certificate/Maturity Certificate); świadectwo ukończenia (Certificate of Completion of Education in the given kind of secondary school)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Portugal",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on the U.S. grading scale will be competitive.\n\nCertificado de Habilitações do Ensino Secundário/Diploma de Ensino Secundário (Secondary School Credential/Diploma).",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Rapa Nui",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "A 3.5-4 (75%) GPA on high school transcripts (12 years of education at a Colegio or Liceo required). We require a copy of the Licencia de Education Media.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Romania",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Diplomă de Bacalaureat (Secondary School Credential/Diploma)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Russia",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Atlest at o Polnom Srednem Obshchem Obrasovanii with a minimum score of “Satisfactory”. Alternatives to credentials: Diplom o srednem professionalnom obrasovanii (secondary vocational education diploma). (BYUP requires a score of at least 4)",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Samoa",
+      "currentAcademicCriteria": "High School Transcript (Grades 9–12) \nand/or \nUSP Foundation Program \nor \nNational University of Samoa Transcript.",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Year 13 or USP Foundation Program or National University of Samoa Transcript highly encouraged.",
+      "expiredCountryCriteria": "Complete Form 7\n- Pass exams in five subjects, including English, with a score of 50 (Achieved) or higher in each.\n--OR--\nComplete University Preparatory Year (UPY) at the NUS:\n- Take a minimum of seven courses, including English, with a grade of 50 (C3) or higher in each course.\n-- OR--\nComplete USP Foundation Program\n- Take at least seven courses, including English, and get a grade of “C” or better in each.\n-- OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 cumulative GPA or higher.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Scotland",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Scottish Certificate of Education — Higher Grade/SCE Highers",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Sierra Leone",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "For secondary school leaving certificate ‘A’ Level: A, B, C, D, E, O, F Lowest pass:O Fail:F.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Singapore",
+      "currentAcademicCriteria": "High School Transcript \nor \nSingapore-Cambridge GCE Advanced Level Certificate or diploma from a Polytechnic.",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Singapore-Cambridge GCE Advanced Level Certificate or diploma from a Polytechnic.",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Solomon Islands",
+      "currentAcademicCriteria": "High school transcript year 10-12\nor \nUSP Foundations",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Year 13 or Form 7 (highly encouraged, but not required)",
+      "expiredCountryCriteria": "PSSC + satisfactory completion of one-year foundation program at USP.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "South Africa",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "High school transcripts with an average of 5 out of 9 (Korea Grading Scale) or a 2.5 GPA on a US equivalent grading scale.\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "South Korea",
+      "currentAcademicCriteria": "High School Transcript with 3 years of upper secondary education",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Senior Certificate with Maturity Endorsement (found on the lower left corner of the Senior Certificate)  or Matriculation Certificate",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Spain",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Curso de Orientation Universitaria’ Bachiller/ Graduado en Educación Secundaria Obligatoria (School leaving certificate), Prueba de Accesso a la Universidad (test access to the University).",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Sri Lanka",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a grade of B on U.S. grading scale will be competitive\n\nSchool-leaving Certificate (Diploma)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Sweden",
+      "currentAcademicCriteria": "High School Transcript (Grades 10-12)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "School-leaving Certificate from upper secondary school",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Switzerland",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Maturitätszeugnis/Certificate de Maturité",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Taiwan",
+      "currentAcademicCriteria": "Senior High School (Grades 10–12)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Complete senior high school.\n- High school transcripts with a grade point average of 2.5 (U.S. equivalent) or better.\n- Provide a cited copy of your high school diploma.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Thailand",
+      "currentAcademicCriteria": "High School Transcript (Upper Secondary Level: Grades 10-12)\nor\nMattayom VI (4-6)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Mattayom VI with a minimum score of 3 ( ‘B’ in US equivalent).\n\nComplete the ecclesiastical endorsement.",
+      "notAccepted": null
+    },
+    {
+      "region": "Pacific",
+      "country": "Tonga",
+      "currentAcademicCriteria": "Complete High School Transcript (Grades 10–12) or USP Foundation Program or TNFSC (Tonga's government exam)",
+      "englishTestRequired": null,
+      "optionalToSubmit": "Year 13 or Form 7 (highly encouraged, but not required)",
+      "expiredCountryCriteria": "Complete Form 7:\n- Pass exams in five subjects, including English, with a score of 50 or higher in each.\n--OR--\nComplete the University of South Pacific Foundation Program:\n- Take at least seven courses, including English, and get a grade of “C” or better in each.\n--OR--\nComplete the Tonga National Form Seven Certificate (TNFSC):\n- Pass exams in five subjects, including English, and submit your transcripts.\n--OR--\nComplete BYU-Pathway's foundational PathwayConnect program (PC101, PC102, PC103, and the introductory certificate course):*\n- Score a minimum 3.0 GPA or higher",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Turkey",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Lise Diplomasi (school leaving certificate), Higher Education Examination-Undergraduate Placement Examination result (National exam)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Tuvalu",
+      "currentAcademicCriteria": "High School Transcript\nor\nSecondary Education: Form 7  \nor \nNCEA: (Level 3 courses)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary Education: Form 7 is required or NCEA: (Level 3 courses)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Ukraine",
+      "currentAcademicCriteria": "Ukranian Secondary High School Transcript (Grades 10-11)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Secondary School Transcript; a score 9 of 12 on the Ukrainian grading scale will be competitive",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "United Kingdom",
+      "currentAcademicCriteria": "High School Transcript or  GCSE ‘O’ or ‘A’ Levels",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "GCSE ‘O’ or ‘A’ Levels",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "United States",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": "ACT/ SAT\nStudents have the option whether or not to report their ACT or SAT scores. It is test optional.\nIf you have taken the SAT, you may refer to our ACT/SAT Equivalency Table to find your SAT score's equivalent.\n\nScores must be sent through the examiners. We will not accept ACT/SAT scores via email or scores on transcripts.\n\nSAT/ACT scores must be sent electronically through the SAT and ACT websites. Scores usually take two to three days to process after our office receives them.",
+      "expiredCountryCriteria": null,
+      "notAccepted": "Certificate of Completion\n\nCertificate of Attendance\n\nSpecial Education Completion Certificates"
+    },
+    {
+      "region": null,
+      "country": "United States - Home School",
+      "currentAcademicCriteria": "High School diploma, submit an ACT/ SAT score, or GED.\nIf a student submits an ACT, BYU–Hawaii requires a minimum ACT composite score of 24 or a minimum SAT test score of 1090 for home-schooled students.\nIf you have taken the SAT, you may refer to our ACT/SAT Equivalency Table to find your SAT score's equivalent.\nScores must be sent through the examiners. We will not accept ACT/SAT scores via email or scores on transcripts.\nSAT/ACT scores must be sent electronically through the SAT and ACT websites. Scores usually take two to three days to process after our office receives them.",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "School-leaving Certificate (Diploma)",
+      "notAccepted": "Homeschool transcripts only without proof of a high school diploma, ACT/SAT score or passing GED."
+    },
+    {
+      "region": null,
+      "country": "Vanuatu",
+      "currentAcademicCriteria": "High school transcript/Senior secondary certificate (10-12)\nand\nUSP or Form-7 Certificate/PSSC (Pacific Senior Secondary Certificate)\nor\nBaccalaureate diploma or High School Transcripts (Grades 10,11, and 12)",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Complete Baccalauréat:\n- Official subject/grade/examination reports (livret scolaire) and completion certificate issued in French and English. Documents must be issued by the school with the official stamp and signature accompanied by an official English translation.\n**Must include 10th, 11th, and 12th years.\n--OR--\nComplete the IGCSE or GSCE:\n- Official examination results showing at least five passed subjects issued in English.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Vietnam",
+      "currentAcademicCriteria": "Upper Secondary school transcript\nand\nBang Tot Nghiep Pho Tong Trung Hoc exam",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "7 or higher on the Bang Tot Nghiep Pho Tong Trung Hoc.",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Yugoslavia",
+      "currentAcademicCriteria": "High School Transcript",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Diploma o Završenoj Srednjoj Školi (Diploma of Secondary Education)",
+      "notAccepted": null
+    },
+    {
+      "region": null,
+      "country": "Zimbabwe",
+      "currentAcademicCriteria": "Advanced Level General Certificate of Education\nor\nCambridge Advanced Level Certificate aka General Certificate of Education ‘A’ Level.",
+      "englishTestRequired": null,
+      "optionalToSubmit": null,
+      "expiredCountryCriteria": "Cambridge Advanced Level Certificate aka General Certificate of Education ‘A’ Level.",
+      "notAccepted": null
+    }
+  ]
+}

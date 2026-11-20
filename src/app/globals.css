@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme inline {
+  /* BYUH Brand Palette — exact values from admissions.byuh.edu */
+  --color-byuh-crimson: #ba0c2f;
+  --color-byuh-burgundy: #9e1b34;
+  --color-byuh-dark: #6b0a1f;
+  --color-byuh-gold: #946f0a;
+  --color-byuh-gold-light: #b8940e;
+  --color-byuh-navy: #002e5d;
+  --color-byuh-charcoal: #444444;
+  --color-byuh-text: #141414;
+  --color-byuh-muted: #666666;
+  --color-byuh-border: #e6e6e6;
+  --color-byuh-surface: #f6f6f8;
+
+  --font-sans: "Montserrat", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #141414;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Loading pulse for dots */
+@keyframes chatpulse {
+  0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
+  40% { opacity: 1; transform: scale(1); }
+}

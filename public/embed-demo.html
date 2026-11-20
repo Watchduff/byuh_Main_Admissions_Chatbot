@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Embed demo — BYU-Hawaii Assistant</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; color: #141414; line-height: 1.6; }
+    .hero { background: #ba0c2f; color: #fff; padding: 64px 24px; text-align: center; }
+    .hero h1 { margin: 0 0 8px; font-size: 28px; }
+    main { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
+    code { background: #f1f1f4; padding: 2px 6px; border-radius: 4px; font-size: 90%; }
+    pre { background: #1e1e24; color: #eaeaea; padding: 16px; border-radius: 8px; overflow:auto; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>BYU–Hawaii (demo host page)</h1>
+    <p>This page simulates a BYU–Hawaii website. The chat bubble is bottom-right.</p>
+  </div>
+  <main>
+    <h2>How to embed</h2>
+    <p>Add a single line before <code>&lt;/body&gt;</code> on any BYU–Hawaii page:</p>
+    <pre>&lt;script src="https://YOUR-BOT-DOMAIN/embed.js" defer&gt;&lt;/script&gt;</pre>
+    <p>Optional attributes: <code>data-position="left"</code>, <code>data-color="#002e5d"</code>,
+       <code>data-greeting="Need help?"</code>.</p>
+    <p>This demo loads <code>embed.js</code> from the same origin it is served from, so it
+       works against local dev and any deployed environment without edits.</p>
+  </main>
+
+  <!-- Loads from whatever origin this page is served from (relative URL). -->
+  <script src="/embed.js" defer></script>
+</body>
+</html>

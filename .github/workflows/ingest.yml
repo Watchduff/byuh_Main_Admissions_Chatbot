@@ -1,0 +1,39 @@
+# Manual full re-scrape of the knowledge base (Actions tab -> Run workflow).
+#
+# This is NOT the schedule any more. BYU-Hawaii's servers answer GitHub's
+# runners with 403 on every site, so runs from here scrape nothing; the job
+# now fails loudly when that happens instead of reporting success. The
+# scheduled refresh runs on Vercel in nightly batches (vercel.json ->
+# /api/cron/scrape). This workflow is kept only in case the block is lifted.
+#
+# Required repo secrets:
+#   DATABASE_URL        - Neon Postgres connection string (pooled)
+#   OPENAI_API_KEY      - OpenAI API key used for embeddings
+name: Re-scrape knowledge base
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Re-scrape, chunk, embed, and reindex
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: pnpm run ingest
