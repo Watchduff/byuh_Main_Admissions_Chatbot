@@ -1,7 +1,7 @@
 # Operations Runbook — BYU-Hawaii Assistant
 
 Satisfies the **L6 / Operations** Definition of Done from
-[`ROADMAP.md`](../ROADMAP.md): *owners can deploy, roll back, monitor, and
+[`roadmap.md`](roadmap.md): *owners can deploy, roll back, monitor, and
 triage post-launch.* This is the on-call reference for the Aug 1, 2026 launch
 and the first weeks after.
 
@@ -55,7 +55,7 @@ Standard deploys are **git-push driven** through Vercel.
    ```
    `db:migrate` is safe to re-run (all statements are `IF NOT EXISTS` /
    backfill-guarded). `ingest` re-scrapes and re-embeds — it costs OpenAI
-   tokens, so don't run it casually (see cost note in `ROADMAP.md`).
+   tokens, so don't run it casually (see cost note in [`roadmap.md`](roadmap.md)).
 3. Smoke-test after promotion (see [§5 Post-deploy smoke test](#5-post-deploy-smoke-test)).
 
 ### Pre-deploy check (local)

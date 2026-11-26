@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-// Edge-runtime middleware for the admin pages. We can't talk to Postgres
+// Proxy (formerly "middleware") for the admin pages. We can't talk to Postgres
 // here, so this only checks that a session cookie is *present* — actual
 // session validation (and the role check) happens in the page/API code.
 // This is enough to bounce unauthenticated visitors to /login before any
@@ -9,7 +9,7 @@ const PROTECTED_PAGES = ['/support', '/countries', '/conversations', '/monitor',
 
 const COOKIE_NAME = 'byuh_admin_session';
 
-export function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   const isProtected = PROTECTED_PAGES.some(

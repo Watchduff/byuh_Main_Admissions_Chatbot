@@ -265,7 +265,7 @@ export default function ChatPanel({
   }
 
   return (
-    <div className="flex flex-col flex-1 min-w-0">
+    <div className="flex flex-col flex-1 min-w-0 min-h-0">
       {/* First-visit legal disclaimer gate (ROADMAP L2 / A1). Rendered here so
           both the main app and the embedded widget are gated by it. */}
       <DisclaimerGate />

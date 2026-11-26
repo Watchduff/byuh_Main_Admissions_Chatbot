@@ -17,12 +17,12 @@ type CountryCriteriaFile = {
 };
 
 async function seed() {
-  const jsonPath = resolve(process.cwd(), 'COUNTRY_CRITERIA.json');
+  const jsonPath = resolve(process.cwd(), 'data', 'country-criteria.json');
   const raw = readFileSync(jsonPath, 'utf-8');
   const data = JSON.parse(raw) as CountryCriteriaFile;
 
   if (!Array.isArray(data.records)) {
-    throw new Error('COUNTRY_CRITERIA.json missing `records` array');
+    throw new Error('data/country-criteria.json missing `records` array');
   }
 
   const client = await pool.connect();

@@ -24,3 +24,4 @@ runIngestion({ sourceFilter, trigger: 'cli' })
     await pool.end().catch(() => {});
     process.exit(1);
   });
+     

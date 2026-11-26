@@ -85,10 +85,11 @@ function ResetForm() {
           )}
 
           <div>
-            <label className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
+            <label htmlFor="reset-password-field-1" className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
               New password
             </label>
             <input
+          id="reset-password-field-1"
               type="password"
               autoComplete="new-password"
               value={password}
@@ -100,10 +101,11 @@ function ResetForm() {
           </div>
 
           <div>
-            <label className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
+            <label htmlFor="reset-password-field-2" className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
               Confirm new password
             </label>
             <input
+          id="reset-password-field-2"
               type="password"
               autoComplete="new-password"
               value={confirmPassword}

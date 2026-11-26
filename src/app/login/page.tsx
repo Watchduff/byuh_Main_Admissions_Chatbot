@@ -72,10 +72,11 @@ function LoginForm() {
       )}
 
       <div>
-        <label className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
+        <label htmlFor="login-field-1" className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
           Email
         </label>
         <input
+          id="login-field-1"
           type="email"
           autoComplete="email"
           value={email}
@@ -90,7 +91,7 @@ function LoginForm() {
 
       <div>
         <div className="flex items-baseline justify-between mb-1">
-          <label className="block text-[11px] font-semibold uppercase tracking-wider" style={{ color: '#666' }}>
+          <label htmlFor="login-field-2" className="block text-[11px] font-semibold uppercase tracking-wider" style={{ color: '#666' }}>
             Password
           </label>
           <Link
@@ -102,6 +103,7 @@ function LoginForm() {
           </Link>
         </div>
         <input
+          id="login-field-2"
           type="password"
           autoComplete="current-password"
           value={password}

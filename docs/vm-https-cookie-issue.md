@@ -15,7 +15,7 @@ This document explains the problem, the temporary workaround now in place
 Authentication is custom (not NextAuth). On a successful login,
 `createSession()` in `src/lib/auth.ts` sets an httpOnly session cookie
 (`byuh_admin_session`) and returns `200`. The page then navigates to a protected
-route (`/support`), and `src/middleware.ts` checks that the session cookie is
+route (`/support`), and `src/proxy.ts` checks that the session cookie is
 present before allowing access.
 
 The cookie was previously set with:
@@ -39,7 +39,7 @@ The exact failure sequence on the VM:
    and returns `200` with `Set-Cookie: byuh_admin_session=…; Secure`.
 2. The browser drops the cookie because the page is HTTP, not HTTPS.
 3. The login page runs `router.replace('/support')`.
-4. `middleware.ts` sees **no** session cookie and redirects back to `/login`.
+4. `proxy.ts` sees **no** session cookie and redirects back to `/login`.
 5. The button reverts to "Sign in" with **no error** — because the API call
    itself genuinely succeeded; only the cookie was lost.
 

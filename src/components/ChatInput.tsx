@@ -27,6 +27,7 @@ const ChatInput = forwardRef<HTMLInputElement, ChatInputProps>(function ChatInpu
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder ?? 'Type a message...'}
+        aria-label="Message"
         disabled={disabled}
         className="flex-1 rounded-lg border px-4 py-3 text-[14px] outline-none transition-colors disabled:opacity-50 placeholder:text-gray-400"
         style={{ borderColor: '#e6e6e6', color: '#141414' }}
@@ -41,6 +42,7 @@ const ChatInput = forwardRef<HTMLInputElement, ChatInputProps>(function ChatInpu
       />
       <button
         type="submit"
+        aria-label="Send message"
         disabled={disabled || !value.trim()}
         className="shrink-0 rounded-lg p-3 text-white transition-colors cursor-pointer disabled:opacity-35 disabled:cursor-not-allowed"
         style={{ background: '#ba0c2f' }}

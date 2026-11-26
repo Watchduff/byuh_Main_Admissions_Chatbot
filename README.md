@@ -1,24 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BYU–Hawaii Admissions Assistant
 
-## Getting Started
+An AI chatbot that answers questions about BYU–Hawaii from the university's own
+web pages. It scrapes BYU–Hawaii subdomains into a Postgres + pgvector
+knowledge base, retrieves the relevant pages for each question, and answers with
+OpenAI `gpt-4o-mini`, citing its sources. Admins get pages for support
+requests, country admission criteria, conversations, monitoring and scraping.
 
-First, run the development server:
+Built with Next.js 16 (App Router), the Vercel AI SDK, Drizzle ORM and Tailwind.
+
+## Quick start
+
+Prerequisites: Node.js 20+, [pnpm](https://pnpm.io), a Postgres database with
+the `vector` extension (e.g. [Neon](https://neon.tech)), and an OpenAI API key.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+cp .env.example .env        # then fill in the values (see the file for each one)
+pnpm db:migrate             # create tables, indexes and the pgvector extension
+pnpm seed:countries         # load data/country-criteria.json
+pnpm ingest                 # scrape BYU–Hawaii sites into the knowledge base (~1.5 h)
+pnpm dev                    # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Create the first admin account at `/register` using your `REGISTRATION_KEY`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Commands
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | What it does |
+|---|---|
+| `pnpm dev` | Start the dev server on port 3000 |
+| `pnpm build` / `pnpm start` | Production build / serve it |
+| `pnpm lint` | Run ESLint |
+| `pnpm db:migrate` | Create or update the database schema (safe to re-run) |
+| `pnpm seed:countries` | Upsert country admission criteria from `data/country-criteria.json` |
+| `pnpm ingest` | Re-scrape every site. Only one scrape can run at a time |
+| `pnpm ingest -- --only=admissions,housing` | Re-scrape specific sites (commas or spaces) |
+
+## Project structure
+
+```
+├── data/
+│   └── country-criteria.json   Admission criteria per country (seed data)
+├── docs/
+│   ├── roadmap.md              Launch plan, backlog, costs
+│   ├── runbook.md              Operating, deploying and troubleshooting
+│   ├── usage-limits.md         Per-session and global usage caps
+│   └── vm-https-cookie-issue.md
+├── public/                     Static files, incl. embed.js (website widget)
+├── scripts/
+│   ├── deploy-aws.sh           Provision + deploy on AWS App Runner
+│   ├── start-database.sh       Optional local Postgres in Docker
+│   └── vm/                     VM auto-deploy and nightly scrape cron
+└── src/
+    ├── app/                    Pages (chat, admin pages, auth) and API routes
+    │   └── api/                chat, conversations, admin/*, auth/*, cron/scrape …
+    ├── components/             Chat UI and shared components
+    ├── db/                     Drizzle schema, connection, migrations
+    ├── lib/                    AI models, scraper, ingestion, auth, rate limits …
+    ├── prompt/                 The bot's system prompt (see below)
+    ├── scripts/                CLI entry points for ingest and seeding
+    └── proxy.ts                Redirects signed-out visitors away from admin pages
+```
 
 ## The bot's instructions
 
@@ -34,20 +76,10 @@ The chat route builds its system prompt from two files in `src/prompt/`:
 `rules.ts` and facts out of `soul.md`. `soul.md` is read at runtime, so if it
 moves, update `outputFileTracingIncludes` in `next.config.ts`.
 
-## Learn More
+## Embedding on a website
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`public/embed.js` adds the chat as a floating widget on any page; the widget
+loads `/embed`. See `docs/runbook.md` for details.
 
 ## Deploy on AWS
 
@@ -64,3 +96,5 @@ Useful environment overrides: `AWS_REGION`, `APP_NAME`, `DB_INSTANCE_CLASS`,
 `APP_RUNNER_CPU`, `APP_RUNNER_MEMORY`, `SKIP_INGEST=1` (skip re-ingestion on
 re-runs). Resource IDs and the generated DB password are written to
 `.aws-deploy.state` in the project dir — treat it as a secret.
+
+See [`docs/runbook.md`](docs/runbook.md) for operations and troubleshooting.

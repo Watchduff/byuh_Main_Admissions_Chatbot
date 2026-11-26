@@ -73,10 +73,11 @@ export default function ForgotPasswordPage() {
             )}
 
             <div>
-              <label className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
+              <label htmlFor="forgot-password-field-1" className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
                 Email
               </label>
               <input
+          id="forgot-password-field-1"
                 type="email"
                 autoComplete="email"
                 value={email}

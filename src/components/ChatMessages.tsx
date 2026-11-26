@@ -55,7 +55,10 @@ export default function ChatMessages({
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+    // Nothing to follow yet: scrolling now would push the welcome screen's
+    // top under the header on small screens.
+    if (messages.length === 0 && !showTypingDots) return;
+    bottomRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
   }, [messages, showTypingDots]);
 
   return (

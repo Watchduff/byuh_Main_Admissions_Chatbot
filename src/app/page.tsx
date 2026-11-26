@@ -70,8 +70,10 @@ export default function Home() {
     ? conversations.find((c) => c.id === activeConversationId)?.title || 'Chat'
     : 'BYU-Hawaii Assistant';
 
+  // Fixed to the screen height so only the message list scrolls; with min-h
+  // the whole page grew on phones and pushed the footer off-screen.
   return (
-    <div className="flex min-h-dvh bg-white">
+    <div className="flex h-dvh overflow-hidden bg-white">
       {sidebarOpen && (
         <div
           className="fixed inset-0 bg-black/40 z-30 lg:hidden backdrop-blur-sm"
@@ -107,6 +109,7 @@ export default function Home() {
             </button>
             <button
               onClick={() => setSidebarOpen(false)}
+              aria-label="Close menu"
               className="p-2 rounded-md text-white/80 hover:text-white hover:bg-white/10 transition-colors cursor-pointer lg:hidden"
             >
               <X size={18} />
@@ -152,10 +155,11 @@ export default function Home() {
       </aside>
 
       {/* ─── Main Area ─── */}
-      <div className="flex flex-col flex-1 min-w-0">
+      <div className="flex flex-col flex-1 min-w-0 min-h-0">
         <header className="sticky top-0 z-20 shrink-0 flex items-center gap-3 px-4 py-0 h-14" style={{ background: '#ba0c2f' }}>
           <button
             onClick={() => setSidebarOpen(true)}
+            aria-label="Open menu"
             className="p-1.5 -ml-1 rounded-md text-white/80 hover:text-white hover:bg-white/10 transition-colors cursor-pointer lg:hidden"
           >
             <Menu size={22} />

@@ -79,10 +79,11 @@ export default function RegisterPage() {
         )}
 
         <div>
-          <label className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
+          <label htmlFor="register-field-1" className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
             Email
           </label>
           <input
+          id="register-field-1"
             type="email"
             autoComplete="email"
             value={email}
@@ -96,10 +97,11 @@ export default function RegisterPage() {
         </div>
 
         <div>
-          <label className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
+          <label htmlFor="register-field-2" className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
             Password
           </label>
           <input
+          id="register-field-2"
             type="password"
             autoComplete="new-password"
             value={password}
@@ -117,10 +119,11 @@ export default function RegisterPage() {
         </div>
 
         <div>
-          <label className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
+          <label htmlFor="register-field-3" className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
             Confirm password
           </label>
           <input
+          id="register-field-3"
             type="password"
             autoComplete="new-password"
             value={confirmPassword}
@@ -135,10 +138,11 @@ export default function RegisterPage() {
         </div>
 
         <div>
-          <label className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
+          <label htmlFor="register-field-4" className="block text-[11px] font-semibold uppercase tracking-wider mb-1" style={{ color: '#666' }}>
             Registration key
           </label>
           <input
+          id="register-field-4"
             type="password"
             autoComplete="off"
             value={registrationKey}

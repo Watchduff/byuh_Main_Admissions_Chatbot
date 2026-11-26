@@ -202,7 +202,7 @@ export const supportTickets = pgTable('support_tickets', {
   createdAt: timestamp('created_at').defaultNow(),
 });
 
-// Country-specific admission criteria, sourced from COUNTRY_CRITERIA.json
+// Country-specific admission criteria, sourced from data/country-criteria.json
 // (originally a spreadsheet maintained by the admissions office). Looked up
 // directly by the chat agent via the `getCountryCriteria` tool, not embedded.
 // `country` covers real countries plus special groupings like
